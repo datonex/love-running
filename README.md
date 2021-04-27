@@ -1,18 +1,18 @@
-# Smallroundears Website
+# Love Running Website
 
 ## Overview
 
 ### What is this website for?
 
-This is a website for people to learn about Hippopotami and/or then test them on their knowledge.
+This is a website to encourage people to do running and as well as sign up to the community.
 
 ### What does it do?
 
-This website has various pages for people to read lots of information about Hippopotami, ranging from what they eat and their habitat, to their behavior and tendencies. Users can then quiz themselves on their new found Hippo knowledge.
+This website has various pages for people to read lots of information about Running and joing the commuty of runner in the local area.
 
 ### How does it work
 
-This website uses **AngularJS** to route viewers through the site and control which **Javascript** is executed. The site is styled with **Bootstrap**. The quiz has been created using **Javascript** and modal for enlarging images is displayed using some **JQuery** code. **Bower** has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
+This website uses **HTML** and **CSS** for  minor animations and visualisation og the website. VSCode has been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://futoisaru.github.io/hippo/)
 
 ## Features
 
@@ -22,11 +22,10 @@ This website uses **AngularJS** to route viewers through the site and control wh
   - Sliding picture box
 - Information page.
   - Sidebar to navigate to different parts of the information
-- Media page with plenty of pictures and a video
-- Links page to other sites with information about Hippopotami
-- Quiz page for viewers to test their knowledge
+- Gallery page with plenty of pictures and a video
+- Sign up page for viewers to register for the running club in their local area.
   - Form for viewers to input their answers or check the correct box
-  - Submit button so viewers can see how they scored on the quiz
+  - Submit button so the form can be submited.
 
 ### Features Left to Implement
 
@@ -36,18 +35,8 @@ This website uses **AngularJS** to route viewers through the site and control wh
 
 ### Some the tech used includes:
 
-- **HTML**, **CSS** and **Javascript**
+- **HTML**, **CSS**
   - Base languages used to create website
-- [AngularJS](https://angularjs.org/)
-  - We use **AngularJS** to handle page routing and to build custom directives
-- [Bootstrap](http://getbootstrap.com/)
-  - We use **Bootstrap** to give our project a simple, responsive layout
-- [JQuery](https://jquery.com)
-  - Use **JQuery** for boostrap and displaying modal
-- [npm](https://www.npmjs.com/)
-  - We use **npm** to install **http-server** in order to view the site
-- [Bower](https://bower.io)
-  - Using **Bower** to manage package dependencies
 
 ## Testing
 
@@ -75,11 +64,9 @@ This website uses **AngularJS** to route viewers through the site and control wh
 
 ### Media
 
-- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
-- The video used on this site belongs to Nat Geo Wild channel on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
+- The photos used in this site were obtained from [Code Institute](https://pixabay.com/)
 
 ### Information
 
 - The information used to create this site was from a number of sources
-  - Wikipedia webpage on [Hippos](https://en.wikipedia.org/wiki/Hippopotamus) and [Pygmy Hippos](https://en.wikipedia.org/wiki/Pygmy_hippopotamus)
-  - The African Wildlife Foundation [website](http://www.awf.org/wildlife-conservation/hippopotamus)
+  - CodeInstitute.
