@@ -22,4 +22,7 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Material Theme Palenight High Contrast",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
 }

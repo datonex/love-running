@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
 /* general styling */
 
@@ -16,7 +16,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -36,7 +37,8 @@ h1, h2 {
   letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
   line-height: 75px;
 }
 
@@ -46,7 +48,7 @@ h1, h2 {
   margin-right: 30px;
 }
 
-#menu a{
+#menu a {
   text-decoration: none;
   color: inherit;
 }
@@ -69,7 +71,8 @@ h1, h2 {
   position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
   color: #fff;
 }
 
@@ -86,10 +89,10 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-  from{
-    transform: scale(1)  
+  from {
+    transform: scale(1);
   }
-  to{
+  to {
     transform: scale(1.1);
   }
 }
@@ -99,14 +102,14 @@ h1, h2 {
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  
+
   width: 300px;
   height: 200px;
 
   padding-top: 40px;
   padding-left: 10px;
 
-  background-color: rgba(241, 109, 107, .7);
+  background-color: rgba(241, 109, 107, 0.7);
 
   bottom: 30px;
   right: 150px;
