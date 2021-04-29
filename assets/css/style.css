@@ -3,333 +3,349 @@
 /* general styling */
 
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
+  	margin: 0;
+  	padding: 0;
+  	border: none;
 }
 
 body {
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  color: #3a3a3a;
+  	font-family: Lato, sans-serif;
+  	font-weight: 300;
+  	color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1,
-h2 {
-  font-family: Oswald, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #252525;
+h1, h2 {
+  	font-family: Oswald, sans-serif;
+  	text-transform: uppercase;
+  	letter-spacing: 4px;
+  	color: #252525;
 }
 
 #logo {
-  float: left;
-  font-size: 280%;
-  margin-left: 30px;
+  	float: left;
+  	font-size: 280%;
+  	margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-  font-size: 110%;
-  letter-spacing: 4px;
+  	font-size: 110%;
+  	letter-spacing: 4px;
 }
 
-#menu,
-#logo {
-  line-height: 75px;
+#menu, #logo {
+  	line-height: 75px;
 }
 
 #menu li {
-  float: right;
-  list-style-type: none;
-  margin-right: 30px;
+  	float: right;
+  	list-style-type: none;
+  	margin-right: 30px;
 }
 
 #menu a {
-  text-decoration: none;
-  color: inherit;
+  	text-decoration: none;
+  	color: inherit;
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #3a3a3a;
+  	border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  	border-bottom: 1px solid #3a3a3a;
 }
 
 /* image section and cover text */
 
 #hero-outer {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
+  	height: 600px;
+  	width: 100%;
+  	overflow: hidden;
 
-  position: relative;
+  	position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-  color: #fff;
+#cover-text, #cover-text h2 {
+  	color: #fff;
 }
 
 #hero-image {
-  height: 600px;
-  width: 100%;
-  background: url("../images/hero-image.webp") no-repeat center center;
-
+  	height: 600px;
+  	width: 100%;
+  	background: url("../images/hero-image.webp") no-repeat center center;
   /* animation zoom effect on loading page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+  	animation-name: hero-zoom;
+  	animation-duration: 5s;
+  	animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
   from {
-    transform: scale(1);
+    	transform: scale(1);
   }
   to {
-    transform: scale(1.1);
+    	transform: scale(1.1);
   }
 }
 
 #cover-text {
-  font-size: 130%;
-  font-family: Oswald, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+	font-size: 130%;
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 
-  width: 300px;
-  height: 200px;
+	width: 300px;
+	height: 200px;
 
-  padding-top: 40px;
-  padding-left: 10px;
+	padding-top: 40px;
+	padding-left: 10px;
 
-  background-color: rgba(241, 109, 107, 0.7);
+	background-color: rgba(241, 109, 107, 0.7);
 
-  bottom: 30px;
-  right: 150px;
+	bottom: 30px;
+	right: 150px;
 
-  position: absolute;
+	position: absolute;
 }
 
 /* club ethos */
 
 #club-ethos {
-  height: 600px;
+  	height: 600px;
 }
 
 #left-about {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
+  	padding-top: 30px;
+  	width: 33%;
+  	float: left;
 }
 
 #right-about {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
+  	padding-top: 30px;
+  	width: 33%;
+  	float: right;
 }
 
 #center-about {
-  width: 33%;
-  margin: 0 auto;
+  	width: 33%;
+  	margin: 0 auto;
 }
 
 hr {
-  border-top: 1px solid #3a3a3a;
-  width: 100%;
-  margin: 5px 0;
+  	border-top: 1px solid #3a3a3a;
+  	width: 100%;
+  	margin: 5px 0;
 }
 
 .left-about-heading {
-  width: 60%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+	width: 60%;
+	float: right;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
 }
 
 .right-about-heading {
-  width: 60%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+	width: 60%;
+	float: left;
+	line-height: 20px;
+	clear: both;
+	margin-bottom: 50px;
 }
 
 .right-about-heading h2 {
-  text-align: right;
+  	text-align: right;
 }
 
 .right-about-heading p {
-  text-align: right;
+  	text-align: right;
 }
 
 #welcome {
-  text-align: center;
-  margin: 20px 0;
-  font-size: 280%;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 280%;
 }
 
 #circle-container {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #ccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 #circle-cover-bg {
-  background: url("../images/ethos-center-image.jpeg") no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
+	background: url("../images/ethos-center-image.jpeg") no-repeat center center;
+	height: 100%;
+	border-radius: 50%;
 }
 
 /* event times */
 
 #times {
-  background-image: url(../images/times-background.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
+	background-image: url(../images/times-background.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
 }
 
 #times div {
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 20%;
-  height: 300px;
-  float: left;
-  padding: 30px 0 0 10px;
-  text-align: center;
-  border: 2px solid white;
-  box-sizing: border-box;
+	color: #fafafa;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 20%;
+	height: 300px;
+	float: left;
+	padding: 30px 0 0 10px;
+	text-align: center;
+	border: 2px solid white;
+	box-sizing: border-box;
 }
 
 #times h2 {
-  color: #fafafa;
+  	color: #fafafa;
 }
 
 /* footer */
 
 footer {
-  height: 150px;
+  	height: 150px;
 }
 
 .social-networks {
-  text-align: center;
+  	text-align: center;
 }
 
 .social-networks > li {
-  display: inline;
+  	display: inline;
 }
 
 .social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #3a3a3a;
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #3a3a3a;
 }
 
 /* gallery */
 
 #photos {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
+	clear: both;
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0;
 }
 
 #photos > img {
-  width: 100%;
+  	width: 100%;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("../images/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+	margin: 150px 10% 0 0;
+	color: #fff;
+	background-color: rgba(60, 60, 60, 0.6);
+	max-width: 400px;
+	position: absolute;
+	left: 10%;
+	padding: 30px;
 }
 
 /* media queries */
 
 @media screen and (max-width: 1200px) {
-  #club-ethos {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
+	#club-ethos {
+		width: 65%;
+    	height: 1200px;
+    	margin: 0 auto;
   }
 
   #welcome {
-    padding: 30px 0;
-    margin: 0;
+		padding: 30px 0;
+		margin: 0;
   }
 
   #left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
+		width: 100%;
+		float: left;
+		padding: 0;
   }
 
   #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
+		clear: both;
+		width: 100%;
+		float: left;
+		padding: 0;
   }
 
   #times > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
+    	width: 100%;
+    	clear: both;
+    	height: 150px;
+    	padding: 0;
   }
 
   hr {
-    display: none;
+    	display: none;
   }
 }
 
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
-  #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+	
+	#menu {
+    	clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 25px;
   }
   
-  #cover-text {
-    left: 0;
+  	#cover-text {
+    	left: 0;
   }
 
-  #club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
+  	#club-ethos {
+    	width: 90%;
+    	height: 1200px;
+    	margin: 0 auto;
   }
 
   .left-about-heading, .right-about-heading {
-    width: inherit;
+		width: inherit;
   }
 
   .left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
+    	width: 100%;
+    	text-align: center;
   }
 
   .left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
+    	text-align: center;
+    	padding: 0 20px;
   }
 
-  #photos {
-    column-count: 3;
+  	#photos {
+    	column-count: 3;
   }
 }
 
@@ -337,7 +353,7 @@ footer {
 
 @media screen and (max-width: 800px) {
 
-  #photos {
-    column-count: 2;
+  	#photos {
+    	column-count: 2;
   }
 }
